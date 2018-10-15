@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Pizza Menu</title>
+<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+</head>
+
+<body>
+	<form class="container">
+
+		<h2>PIZZA</h2>
+		<div class="pizzabox">
+			<div class="pizza">
+				<img src="assets/images/pizza.jpg" />
+				<h3>Pizza 1</h3>
+				<label>
+					$<span>8</span>
+				</label>
+				<input type="radio" name="pizza" id="pizza1" value="8"  />
+			</div>
+
+			<div class="pizza">
+				<img src="assets/images/pizza.jpg" />
+				<h3>Pizza 2</h3>
+				<label>
+					$<span>10</span>
+				</label>
+				<input type="radio" name="pizza" id="pizza2" value="10"  />
+			</div>
+
+			<div class="pizza">
+				<img src="assets/images/pizza.jpg" />
+				<h3>Pizza 3</h3>
+				<label>$
+					<span>12</span>
+				</label>
+				<input type="radio" name="pizza" id="pizza3" value="12"  />
+			</div>
+		</div>
+
+		<h2>SIZE</h2>
+
+		<div class="pizzabox">
+
+			<div class="size">
+				<input type="radio" name="size" id="small" value="-1"">
+				<label>Small</label>
+			</div>
+
+			<div class="size">
+				<input type="radio" name="size" id="medium" value="0" checked">
+				<label>Medium</label>
+			</div>
+
+			<div class="size">
+				<input type="radio" name="size" id="large" value="2"">
+				<label>Large</label>
+			</div>
+		</div>
+
+		<h2>TOPPINGS</h2>
+
+		<div class="pizzabox">
+			<div class="toppings onedollar">
+				<input type="checkbox" id="avocado" class="onedollar"">Avocado<br />
+				<input type="checkbox" id="broccoli" class="onedollar"">Broccoli<br />
+				<input type="checkbox" id="onions" class="onedollar"">Onions<br />
+				<input type="checkbox" id="zucchini" class="onedollar"">Zucchini
+			</div>
+
+			<div class="toppings twodollar">
+				<input type="checkbox" id="lobster" class="twodollar"">Lobster<br />
+				<input type="checkbox" id="oyster" class="twodollar"">Oyster<br />
+				<input type="checkbox" id="salmon" class="twodollar"">Salmon<br />
+				<input type="checkbox" id="tuna" class="twodollar"">Tuna
+			</div>
+
+			<div class="toppings threedollar">
+				<input type="checkbox" id="bacon" class="threedollar"">Bacon<br />
+				<input type="checkbox" id="duck" class="threedollar"">Duck<br />
+				<input type="checkbox" id="ham" class="threedollar"">Ham<br />
+				<input type="checkbox" id="sausage" class="threedollar"">Sausage
+			</div>
+		</div>
+
+		<h2>PRICE</h2>
+		<span>$</span><span class="price"></span>
+
+	</form>
+
+<script src="assets/js/index.js">
+
+</script>
+
+</body>
+
+</html>
